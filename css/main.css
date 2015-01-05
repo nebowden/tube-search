@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+}
+
+#search-container {
+	text-align: center;
+	width: 20%;
+	border-right: 15px solid black;
+	height: 100%;
+	position: fixed;
+}
+
+#search-container > h1 {
+	font-family: rockwell, serif;
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: gray;
+	margin: 30px;
+}
+
+#search-container > h2 {
+	font-family: "trebuchet ms", sans-serif;
+	font-weight: bold;
+	padding: 20px 44px 60px 44px;
+}
+
+#query {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+	line-height: 1.5;
+	border: 2px solid black;
+	font-size: 17px;
+	padding: 0 5px;
+
+}
+
+#submit-button {
+	margin-top: 10px;
+	font-size: 17px;
+	float: right;
+	margin-right: 6%;
+	background-color: gray;
+	color: white;
+	font-family: rockwell, serif;
+	border: none;
+	line-height: 1.5;
+}
+
+#submit-button:focus, #submit-button:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#results-container {
+	float: right;
+	width: 79.3%;
+	min-height: 100%;
+}
+
+#results-container > a > img {
+	width: 200px;
+	margin: 20px;
+	outline: 3px solid black;
+}
+
+#results-container > a > img:hover {
+	outline: 3px solid gray;
+}
