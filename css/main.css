@@ -2,6 +2,8 @@ html, body {
 	height: 100%;
 }
 
+/* search box styling */
+
 #search-container {
 	text-align: center;
 	width: 20%;
@@ -52,6 +54,8 @@ html, body {
 	color: black;
 	cursor: pointer;
 }
+
+/* search results box styling */
 
 #results-container {
 	float: right;
